@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css">
+    <style>
+        .navbar-brand img {
+            width: 4rem;
+        }
+
+        .navbar-brand {
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .footer img {
+            width: 4rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/res-logo.2f9021c4.png" alt="">
+                    <h6>Tasty Treat</h6>
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">Food
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex gap-2 align-items-center">
+                        <button class="btn position-relative">
+                            <i class="fa-solid fa-shopping-cart"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                0
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+
+
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner or hero -->
+
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-6">
+                    <div class="mb-4">
+                        <div class="py-5">
+                            <p class="display-5 fw-bold text-danger">Easy way to make an order</p>
+                            <h2 class="col-md-8 fs-4">
+                                <span class="text-danger">HUNGRY?</span> Just wait for food at
+                                <span class="text-danger">your door</span>
+                            </h2>
+                            <div class="btns d-flex align-items-center gap-5 mt-4">
+                                <button class="btn btn-danger btn-lg align-items-center justify-content-between"
+                                    type="button">
+                                    <h6>Order Now></h6>
+                                </button>
+                                <button class="btn btn-outline-danger btn-lg" type="button">
+                                    <h6>See all foods</h6>
+                                </button>
+                            </div>
+                            <div class=" our_service  d-flex align-items-center gap-5 mt-5 ">
+                                <p class=" d-flex align-items-center gap-2 "><span class="shipping__icon">
+                                        <i class="fa-solid fa-car bg-danger rounded-3"></i></span> No shipping charge
+                                </p>
+                                <p class=" d-flex align-items-center gap-2 "><span class="shipping__icon">
+                                        <i class="fa-solid fa-circle-check"></i></span> 100% secure checkout</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/hero.e3ef74be.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main class="my-5">
+        <!-- categories -->
+
+        <div class="container">
+            <div class="row">
+                <div style="background-color: #fde4e4; justify-content: space-evenly; width: 17rem;"
+                    class="col-md-6 d-flex m-auto align-items-center p-3 rounded-3">
+                    <img style="width: 3rem; height: 4rem; object-fit: contain;" src="images/categoryrep.3a62c85d.png"
+                        alt="" class="img-fluid">
+                    <p class="fw-bold">Breakfast</p>
+                </div>
+                <div style="background-color: #fde4e4; justify-content: space-evenly; width: 17rem;"
+                    class="col-md-3 d-flex m-auto align-items-center p-3 rounded-3">
+                    <img style="width: 3rem; height: 4rem; object-fit: contain;" src="images/categoryrep.3a62c85d.png"
+                        alt="" class="img-fluid">
+                    <p class="fw-bold">Lunch</p>
+                </div>
+                <div style="background-color: #fde4e4; justify-content: space-evenly; width: 17rem;"
+                    class="col-md-3 d-flex m-auto align-items-center p-3 rounded-3">
+                    <img style="width: 3rem; height: 4rem; object-fit: contain;" src="images/categoryrep.3a62c85d.png"
+                        alt="" class="img-fluid">
+                    <p class="fw-bold">Dinner</p>
+                </div>
+                <div style="background-color: #fde4e4; justify-content: space-evenly; width: 17rem;"
+                    class="col-md-3 d-flex m-auto align-items-center p-3 rounded-3">
+                    <img style="width: 3rem; height: 4rem; object-fit: contain;" src="images/categoryrep.3a62c85d.png"
+                        alt="" class="img-fluid">
+                    <p class="fw-bold">Breakfast</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="text-center col-lg-12">
+                            <h5 class="text_title mb-4 text-danger">What We Serve</h5>
+                            <h2 class="text-title">Just sit back at home</h2>
+                            <h2 class="text-title"> we will
+                                <span class="text-danger">take care</span>
+                            </h2>
+                            <p class="mb-1 mt-4 feature-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Atque, quos?</p>
+                            <p class="feature-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque,
+                                quos?</p>
+                        </div>
+                        <div class="mt-5 col-sm-6 col-md-6 col-lg-4">
+                            <div class="feature__item text-center px-5 py-3">
+                                <img src="images/download.png" alt="feature-img" class="w-25 mb-3">
+                                <h5 class=" fw-bold mb-3">Quick Delivery</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.</p>
+                            </div>
+                        </div>
+                        <div class="mt-5 col-sm-6 col-md-6 col-lg-4">
+                            <div class="feature__item text-center px-5 py-3">
+                                <img src="images/download (1).png" alt="feature-img" class="w-25 mb-3">
+                                <h5 class=" fw-bold mb-3">Super Dine In</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.</p>
+                            </div>
+                        </div>
+                        <div class="mt-5 col-sm-6 col-md-6 col-lg-4">
+                            <div class="feature__item text-center px-5 py-3">
+                                <img src="images/download (2).png" alt="feature-img" class="w-25 mb-3">
+                                <h5 class=" fw-bold mb-3">Easy Pick Up</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="text-center col-lg-12">
+                            <h2>Popular Foods</h2>
+                        </div>
+                        <div class="col-lg-12">
+                            <div
+                                class="food__category d-flex align-items-center justify-content-center gap-4 p-3 bg-danger">
+                                <button type="button" class="all__btn  foodBtnActive ">All</button>
+                                <button type="button" class="d-flex align-items-center gap-2">LOW</button>
+                                <button type="button" class="d-flex align-items-center gap-2">High</button>
+                            </div>
+                        </div>
+                        <!-- <div class="mt-5 col-sm-12 col-md-4 col-lg-3">
+                            <div class="product__section position-relative  ">
+                                <div class="product__item">
+                                    <div class="product__img">
+                                        <img src="images/afb8kxmklbfcgx7hchrn.jpg" alt="Pounded yam">
+                                    </div>
+                                </div>
+                                <div class="product__item">
+                                    <img src="images/qjc6emlnohuz2e9v6qvg.png" alt="Rice and Stew" class="img-thumbnail">
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+            <section class="why__choose-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <img src="images/location.c2a80861.png" alt="why-tasty-treat" class="w-100">
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="why__tasty-treat">
+                                <h2 class="tasty__treat-title mb-4 fw-bold">Why <span class="text-danger">Tasty
+                                        Treat?</span></h2>
+                                <p class="tasty__treat-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Dolorum, minus. Tempora reprehenderit a corporis velit, laboriosam vitae ullam,
+                                    repellat illo sequi odio esse iste fugiat dolor, optio incidunt eligendi deleniti!
+                                </p>
+                                <ul class="mt-4 list-group">
+                                    <li class="border-0 ps-0 list-group-item">
+                                        <p class=" choose__us-title d-flex align-items-center gap-2 fw-bold">
+                                            Fresh and tasty foods</p>
+                                        <p class="choose__us-desc">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Quia, voluptatibus.</p>
+                                    </li>
+                                    <li class="border-0 ps-0 list-group-item">
+                                        <p class="choose__us-title d-flex align-items-center gap-2 fw-bold">
+                                            Quality support</p>
+                                        <p class="choose__us-desc">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Qui, earum.</p>
+                                    </li>
+                                    <li class="border-0 ps-0 list-group-item">
+                                        <p class="choose__us-title d-flex align-items-center gap-2 fw-bold">
+                                            Order from any location </p>
+                                        <p class="choose__us-desc">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Qui, earum.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="testimonial">
+                                <h5 class="testimonial-head mb-4"></h5>
+                                <h2 class="testimonial-title mb-4 fw-bold">
+                                    What Our
+                                    <span class="text-danger">Customers</span>
+                                    are saying
+                                </h2>
+                                <p class="testimonial-description">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur non illo
+                                    dolores laboriosam quam, eum sapiente aperiam saepe atque nostrum!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <img src="images/network.7deb539d.png" alt="testimonial-img" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer" style="background-color: rgb(253, 217, 223);">
+        <div class="container" style="background-color: rgb(253, 217, 223);">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class=" footer__logo text-start"><img src="images/res-logo.2f9021c4.png" alt="logo">
+                        <h5 class="fw-bold">Tasty Treat</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt pariatur accusamus</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <h5 class="footer__title fw-bold">Delivery Time</h5>
+                    <ul class="deliver__time-list list-group">
+                        <li class=" delivery__time-item border-0 ps-0 list-group-item"><span class="fw-bold">Sunday -
+                                Thursday</span>
+                            <p>10:00am - 11:00pm</p>
+                        </li>
+                        <li class=" delivery__time-item border-0 ps-0 list-group-item"><span class="fw-bold">Friday -
+                                Saturday</span>
+                            <p>Off day</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <h5 class="footer__title fw-bold">Contact</h5>
+                    <ul class="deliver__time-list list-group">
+                        <li class=" delivery__time-item border-0 ps-0 list-group-item">
+                            <p>Location: Daddy Oniyinde Street Agege</p>
+                        </li>
+                        <li class=" delivery__time-item border-0 ps-0 list-group-item"><span class="fw-bold">Phone:
+                                08166398746</span>
+                        </li>
+                        <li class=" delivery__time-item border-0 ps-0 list-group-item"><span class="fw-bold">Email:
+                                expensive7832@gmail.com</span></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <h5 class="footer__title fw-bold">Newsletter</h5>
+                    <p>Subscribe our newsletter</p>
+                    <di class="newsletter">
+                        <input type="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="mt-5 row">
+                <div class="col-md-6 col-lg-6">
+                    <p class="copyright__text text-danger">© copyright - 2024</p>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="social_media_links d-flex align-items-center gap-4 justify-content-end">
+                        <p class="m-0">Follow: </p>
+                        <span>
+                             <a href="">
+                                <i class="fa-solid fa-facebook"></i></a> </span>
+                                <span>
+                                    <a href="">
+                                <i class="fa-solid fa-github"></i></a></span>
+                                <span>
+                                     <a href="">
+                                <i class="fa-solid fa-linkedin"></i></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
